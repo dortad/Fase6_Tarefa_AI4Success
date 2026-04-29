@@ -1,6 +1,6 @@
 # Fase6_Tarefa_AI4Success
 
-![FIAP logo](assets/logo.svg)
+![FIAP logo](assets/logo-fiap.png)
 
 ## Projeto
 
