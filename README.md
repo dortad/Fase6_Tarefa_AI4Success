@@ -1,121 +1,80 @@
-# Fase6_Tarefa_AI4Success
+# FIAP - Faculdade de Informática e Administração Paulista
 
-![FIAP logo](assets/logo-fiap.png)
+<p align="center">
+<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+</p>
 
-## Projeto
+<br>
 
-Entrega da Fase 6 — AI4Success: detecção e classificação de objetos. O trabalho aborda duas frentes principais:
+# AI4Success — Detecção e Classificação de Objetos
 
-- Detecção de objetos com YOLO (abordagens: YOLO adaptável — Entrega 1 — e YOLO padrão);
-- Classificação com uma CNN treinada do zero.
+## Grupo AI4Success - Turma 1TIAOR
 
-**Informações do grupo**
+## 👨‍🎓 Integrantes: 
+- <a href="https://www.linkedin.com/in/durval-dorta-junior-585311202/">Durval de Oliveira Dorta Junior - RM567007</a>
+- <a href="https://www.linkedin.com/">Murilo Ferreira Borges - RM567738</a>
+- <a href="https://www.linkedin.com/">Guilherme Cury - RM564011</a> 
+- <a href="https://www.linkedin.com/">Guilherme da Nobrega Gontijo - RM562211</a> 
+- <a href="https://www.linkedin.com/">Estevao Ferreira Santos - RM567522</a>
 
-- **Nome do grupo:** AI4Success
-- **Turma:** 1TIAOR
-- **Data:** 27/04/2026
-- **Integrantes:**
-  - Durval de Oliveira Dorta Junior - RM567007
-  - Murilo Ferreira Borges - RM567738
-  - Guilherme Cury - RM564011
-  - Guilherme da Nobrega Gontijo - RM562211
-  - Estevao Ferreira Santos - RM567522
-- **Professores:**
-  - Tutor(a): Ana Cristina dos Santos
-  - Coordenador(a): Andre Godoi Chiovato
-
-> Observação: o `README.md` funciona como porta de entrada e índice do projeto. A documentação completa, o passo a passo de execução, as decisões de implementação e a análise estão no notebook
-> [GuilhermeDaNobregaGontijo_562211_pbl_fase6.ipynb](GuilhermeDaNobregaGontijo_562211_pbl_fase6.ipynb) (Jupyter/Colab).
-
----
-
-## Sumário
-
-- [Como navegar](#como-navegar)
-- [Conteúdo do repositório](#conteudo-do-repositorio)
-- [Estrutura de pastas](#estrutura-de-pastas)
-- [Entregáveis do enunciado 2](#entregaveis-do-enunciado-2)
-- [Como executar (resumo)](#como-executar-resumo)
-- [Licença](#licenca)
-
----
-
-## Como navegar
-
-1. Abra o notebook `GuilhermeDaNobregaGontijo_562211_pbl_fase6.ipynb` para o passo a passo completo;
-2. Use este `README.md` para encontrar rapidamente os artefatos e entender a organização do projeto;
-3. Consulte a pasta `Resultados_YOLO` para ver métricas, gráficos e pesos gerados durante os experimentos.
-
-## Conteúdo do repositório
-
-- `GuilhermeDaNobregaGontijo_562211_pbl_fase6.ipynb`: documentação completa da solução (notebook/Colab);
-- `Dados_fase6/`: dataset organizado para treino, validação e teste;
-- `Resultados_YOLO/`: saídas dos treinamentos, métricas, gráficos e pesos;
-- `LICENSE`, `README.md` e demais arquivos de apoio.
-
-## Estrutura de pastas
-
-Principais pastas e seu propósito:
-
-- `.github/`: configurações do repositório no GitHub (ações, templates);
-- `Dados_fase6/`: imagens e rótulos organizados para YOLO e CNN;
-- `Dados_fase6/images`: imagens usadas nos experimentos;
-- `Dados_fase6/labels`: rótulos para o conjunto YOLO;
-- `Dados_fase6/cnn`: subconjunto preparado para treino da CNN;
-- `Resultados_YOLO/`: métricas, gráficos, pesos e artefatos dos treinamentos.
+## 👩‍🏫 Professores:
+### Tutor(a) 
+- <a href="https://www.linkedin.com/">Ana Cristina dos Santos</a>
+### Coordenador(a)
+- <a href="https://www.linkedin.com/in/andregodoi/">Andre Godoi Chiovato</a>
 
 
-## Entregáveis do enunciado 1
+## 📜 Descrição
 
-Esta seção lista os itens exigidos pelo Enunciado 1 e descreve objetivamente como cada item foi atendido neste repositório.
+O projeto AI4Success foca na detecção e classificação de objetos utilizando visão computacional, abordando duas frentes principais de implementação. A primeira consiste na detecção de objetos utilizando o framework YOLO, explorando tanto a abordagem de YOLO adaptável quanto o YOLO padrão. A segunda frente foca na classificação de imagens através de uma Rede Neural Convolucional (CNN) desenvolvida e treinada do zero.
 
-- Repositório com a solução: Atendido — este repositório público contém toda a solução, notebooks e artefatos relevantes.
-- Notebook Jupyter/Colab executável: Atendido — o notebook principal está em `GuilhermeDaNobregaGontijo_562211_pbl_fase6.ipynb` e foi mantido com as saídas das execuções necessárias para a correção (células de código com resultados salvos sempre que aplicável).
-- Células de código executadas e comentadas: Atendido — o notebook contém células de código com comentários e as principais células foram executadas para gerar métricas e exemplos de saída (gráficos e imagens) usados na análise.
-- Células de markdown explicativas: Atendido — o relatório está organizado em seções em markdown que contextualizam decisões, descrevem a metodologia e apresentam conclusões e limitações do trabalho.
-- Nome do arquivo conforme padrão: Atendido — o arquivo do notebook segue o padrão solicitado (`<Nome>_rm<XXXXX>_pbl_fase6.ipynb`).
-- Vídeo demonstrativo (YouTube não listado): Pendente/Disponível — se houver um vídeo demonstrativo, adicione o link no README principal deste repositório; o campo está previsto e será incluído no README assim que o link for fornecido.
+O trabalho documenta todo o ciclo de vida do modelo, desde a organização do dataset até a avaliação crítica de métricas como precisão, recall, mAP e tempo de inferência. A documentação detalhada, decisões de implementação e análises completas estão centralizadas no notebook principal do projeto.
 
-Observação: o `README_COLAB.md` deste repositório fornece um atalho direto para abrir o notebook no Google Colab e as instruções rápidas para execução (GPU, instalação de dependências, execução das células).
 
-## Entregáveis do enunciado 2
+## 📁 Estrutura de pastas
 
-Esta seção descreve os critérios de avaliação do Enunciado 2 e como eles foram cumpridos e documentados neste projeto.
+Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
-- Abordagens avaliadas: Atendido — implementamos e avaliamos as três frentes solicitadas (YOLO adaptável, YOLO padrão e uma CNN treinada do zero). Os códigos e experimentos estão no notebook e os artefatos gerados estão organizados na pasta `Resultados_YOLO/`.
-- Facilidade de uso/integração: Documentado — o notebook descreve como reproduzir cada experimento e as dependências necessárias; trechos de código e instruções de execução estão incluídos para replicação.
-- Precisão do modelo: Documentado e mensurado — métricas de desempenho (precisão, recall, mAP ou acurácia para a CNN) estão presentes no notebook e nos arquivos de saída em `Resultados_YOLO/` (gráficos e CSVs quando aplicável).
-- Tempo de treinamento/customização: Mensurado — os tempos de treinamento e configurações de hardware (quando registrados) foram anotados no notebook e, quando possível, salvos como parte dos artefatos de experimento.
-- Tempo de inferência: Avaliado — há exemplos de inferência e medições de latência para as abordagens testadas (descritas no notebook e exemplificadas nas saídas geradas).
-- Comparação crítica: Atendida — o notebook contém uma seção de análise comparativa que discute vantagens, limitações e trade-offs entre as abordagens (facilidade de uso, desempenho e custo computacional).
+- <b>.github</b>: Nesta pasta ficam os arquivos de configuração específicos do GitHub para automação e gerenciamento do repositório.
 
-Onde encontrar os artefatos:
+- <b>assets</b>: Contém arquivos relacionados a elementos não-estruturados, como a logomarca da FIAP utilizada neste README.
 
-- Código e experimentos: `GuilhermeDaNobregaGontijo_562211_pbl_fase6.ipynb` (notebook principal).
-- Resultados e pesos: `Resultados_YOLO/` (subpastas com curvas, imagens de validação, arquivos `.pt` de pesos e logs).
+- <b>Dados_fase6</b>: Pasta que armazena o dataset organizado para treino, validação e teste, incluindo subpastas para imagens, rótulos (labels) e o conjunto específico para a CNN.
 
-Nota de privacidade: mantenha o repositório público para avaliação pela equipe, mas evite expor links sensíveis que facilitem plágio; a descrição metodológica completa e os passos reprodutíveis estão centralizados no notebook.
+- <b>Resultados_YOLO</b>: Armazena os artefatos gerados pelos treinamentos, como métricas de desempenho, gráficos de convergência, logs e os arquivos de pesos (.pt).
 
-## Como executar (resumo)
+- <b>document</b>: Aqui está o notebook principal `GuilhermeDaNobregaGontijo_562211_pbl_fase6.ipynb`, que contém a documentação completa, experimentos e o passo a passo da solução.
 
-Este resumo orienta a execução rápida da solução; o passo a passo detalhado encontra-se no notebook/Colab.
+- <b>README.md</b>: Arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
-Requisitos (exemplo): Python 3.10+, pip, bibliotecas listadas no notebook (torch, torchvision, yolov5 dependencies, etc.).
 
-Exemplo rápido para reproduzir parte dos experimentos localmente:
+## 🔧 Como executar o código
 
-```bash
-# instalar dependências (exemplo)
-python -m pip install -r requirements.txt
+A execução detalhada está descrita no notebook do projeto, mas abaixo segue o resumo para configuração rápida:
 
-# abrir o notebook localmente
-jupyter notebook GuilhermeDaNobregaGontijo_562211_pbl_fase6.ipynb
+1.  **Pré-requisitos**:
+    * Python 3.10 ou superior.
+    * Ambiente Jupyter Notebook ou acesso ao Google Colab.
+    * GPU recomendada para o treinamento dos modelos YOLO e CNN.
 
-# ou abrir em Colab: carregue o notebook no Google Colab e execute as células conforme instruções
-```
+2.  **Instalação**:
+    Clone o repositório e instale as dependências necessárias:
+    ```bash
+    pip install torch torchvision ultralytics matplotlib pandas
+    ```
 
-## Licença
+3.  **Execução**:
+    * Abra o arquivo `GuilhermeDaNobregaGontijo_562211_pbl_fase6.ipynb`.
+    * Caso use o **Google Colab**, você pode carregar o notebook diretamente e ativar o ambiente de GPU em *Ambiente de Execução > Alterar tipo de ambiente de execução*.
+    * Siga a execução sequencial das células para reproduzir os treinamentos e inferências.
 
-Consulte o arquivo `LICENSE` neste repositório para detalhes sobre a licença aplicada ao projeto.
 
----
+## 🗃 Histórico de lançamentos
+
+* 0.1.0 - 27/04/2026
+    * Entrega da Fase 6: Implementação de YOLO (Padrão/Adaptável) e CNN do zero.
+
+
+## 📋 Licença
+
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
