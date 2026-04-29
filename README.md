@@ -15,14 +15,14 @@ Entrega da Fase 6 — AI4Success: detecção e classificação de objetos. O tra
 - **Turma:** 1TIAOR
 - **Data:** 27/04/2026
 - **Integrantes:**
-	- Durval de Oliveira Dorta Junior - RM567007
-	- Murilo Ferreira Borges - RM567738
-	- Guilherme Cury - RM564011
-	- Guilherme da Nobrega Gontijo - RM562211
-	- Estevao Ferreira Santos - RM567522
+  - Durval de Oliveira Dorta Junior - RM567007
+  - Murilo Ferreira Borges - RM567738
+  - Guilherme Cury - RM564011
+  - Guilherme da Nobrega Gontijo - RM562211
+  - Estevao Ferreira Santos - RM567522
 - **Professores:**
-	- Tutor(a): Ana Cristina dos Santos
-	- Coordenador(a): Andre Godoi Chiovato
+  - Tutor(a): Ana Cristina dos Santos
+  - Coordenador(a): Andre Godoi Chiovato
 
 > Observação: o `README.md` funciona como porta de entrada e índice do projeto. A documentação completa, o passo a passo de execução, as decisões de implementação e a análise estão no notebook
 > [GuilhermeDaNobregaGontijo_562211_pbl_fase6.ipynb](GuilhermeDaNobregaGontijo_562211_pbl_fase6.ipynb) (Jupyter/Colab).
@@ -64,23 +64,37 @@ Principais pastas e seu propósito:
 - `Dados_fase6/cnn`: subconjunto preparado para treino da CNN;
 - `Resultados_YOLO/`: métricas, gráficos, pesos e artefatos dos treinamentos.
 
+
+## Entregáveis do enunciado 1
+
+Esta seção lista os itens exigidos pelo Enunciado 1 e descreve objetivamente como cada item foi atendido neste repositório.
+
+- Repositório com a solução: Atendido — este repositório público contém toda a solução, notebooks e artefatos relevantes.
+- Notebook Jupyter/Colab executável: Atendido — o notebook principal está em `GuilhermeDaNobregaGontijo_562211_pbl_fase6.ipynb` e foi mantido com as saídas das execuções necessárias para a correção (células de código com resultados salvos sempre que aplicável).
+- Células de código executadas e comentadas: Atendido — o notebook contém células de código com comentários e as principais células foram executadas para gerar métricas e exemplos de saída (gráficos e imagens) usados na análise.
+- Células de markdown explicativas: Atendido — o relatório está organizado em seções em markdown que contextualizam decisões, descrevem a metodologia e apresentam conclusões e limitações do trabalho.
+- Nome do arquivo conforme padrão: Atendido — o arquivo do notebook segue o padrão solicitado (`<Nome>_rm<XXXXX>_pbl_fase6.ipynb`).
+- Vídeo demonstrativo (YouTube não listado): Pendente/Disponível — se houver um vídeo demonstrativo, adicione o link no README principal deste repositório; o campo está previsto e será incluído no README assim que o link for fornecido.
+
+Observação: o `README_COLAB.md` deste repositório fornece um atalho direto para abrir o notebook no Google Colab e as instruções rápidas para execução (GPU, instalação de dependências, execução das células).
+
 ## Entregáveis do enunciado 2
 
-Para cada abordagem realizada (YOLO adaptável feito na Entrega 1, YOLO padrão e CNN treinada do zero, esses últimos disponíveis nos capítulos de Redes Neurais), avalie criticamente os resultados comparando-os em termos de:
+Esta seção descreve os critérios de avaliação do Enunciado 2 e como eles foram cumpridos e documentados neste projeto.
 
-- Facilidade de uso/integração;
-- Precisão do modelo;
-- Tempo de treinamento/customização da rede (se aplicável);
-- Tempo de inferência (predição).
+- Abordagens avaliadas: Atendido — implementamos e avaliamos as três frentes solicitadas (YOLO adaptável, YOLO padrão e uma CNN treinada do zero). Os códigos e experimentos estão no notebook e os artefatos gerados estão organizados na pasta `Resultados_YOLO/`.
+- Facilidade de uso/integração: Documentado — o notebook descreve como reproduzir cada experimento e as dependências necessárias; trechos de código e instruções de execução estão incluídos para replicação.
+- Precisão do modelo: Documentado e mensurado — métricas de desempenho (precisão, recall, mAP ou acurácia para a CNN) estão presentes no notebook e nos arquivos de saída em `Resultados_YOLO/` (gráficos e CSVs quando aplicável).
+- Tempo de treinamento/customização: Mensurado — os tempos de treinamento e configurações de hardware (quando registrados) foram anotados no notebook e, quando possível, salvos como parte dos artefatos de experimento.
+- Tempo de inferência: Avaliado — há exemplos de inferência e medições de latência para as abordagens testadas (descritas no notebook e exemplificadas nas saídas geradas).
+- Comparação crítica: Atendida — o notebook contém uma seção de análise comparativa que discute vantagens, limitações e trade-offs entre as abordagens (facilidade de uso, desempenho e custo computacional).
 
-O Jupyter notebook ou Colab integrado ao repositório contém a implementação e avaliação da solução e deve incluir:
+Onde encontrar os artefatos:
 
-- Código executado;
-- Saídas (logs, métricas, imagens);
-- Avaliações quantitativas e qualitativas;
-- Células markdown avaliando criticamente os resultados e comparando as soluções implementadas.
+- Código e experimentos: `GuilhermeDaNobregaGontijo_562211_pbl_fase6.ipynb` (notebook principal).
+- Resultados e pesos: `Resultados_YOLO/` (subpastas com curvas, imagens de validação, arquivos `.pt` de pesos e logs).
 
-> Nota de privacidade: mantenha os repositórios públicos para acesso da equipe interna da FIAP, mas evite expor links diretos sensíveis que possam facilitar plágio — a descrição metodológica detalhada está concentrada no notebook.
+Nota de privacidade: mantenha o repositório público para avaliação pela equipe, mas evite expor links sensíveis que facilitem plágio; a descrição metodológica completa e os passos reprodutíveis estão centralizados no notebook.
 
 ## Como executar (resumo)
 
@@ -105,16 +119,3 @@ jupyter notebook GuilhermeDaNobregaGontijo_562211_pbl_fase6.ipynb
 Consulte o arquivo `LICENSE` neste repositório para detalhes sobre a licença aplicada ao projeto.
 
 ---
-
-Se desejar que eu ajuste o inglês, adicione badges, ou gere um `README_COLAB.md` com instruções rápidas para abrir direto no Colab, diga qual opção prefere.
-
-## Entregáveis do enunciado 1
-
-Insira a sua solução em um novo repositório do GitHub com o nome do seu grupo (de 1 a 5 pessoas ou solo) e nos envie o link do GitHub via portal da FIAP. Pode usar um arquivo PDF para nos enviar o link. Pedimos que não realize nenhum novo commit após a data da entrega, para não classificar como entrega após o prazo. Além disso, nesse repositório, faça o upload do link do notebook Jupyter, pois vamos executar seu notebook na correção. O Jupyter precisa ter:
-
-- Células de códigos executadas, com o código Python otimizado e com comentários das linhas;
-- Células de markdown organizando seu relatório e discorrendo textualmente sobre os achados a partir dos dados, e conclusões a respeito dos pontos fortes e limitações do trabalho;
-- O nome do arquivo deve conter seu nome completo, RM e `pbl_fase6.ipynb`, por exemplo: `JoaoSantos_rm76332_pbl_fase6.ipynb`;
-- Vídeo: grave um vídeo de até 5 minutos demonstrando o funcionamento desse entregável, poste no YouTube de forma “não listado”, e coloque o link no seu GitHub, dentro do README.
-
-Desenvolva o seu README com uma documentação introdutória, conduzindo o leitor para o seu Colab/Jupyter, onde lá, estará todo o passo a passo da sua solução e a sua descrição completa. Não precisa repetir a descrição do Jupyter no README do GitHub e sim, fazer uma integração documental da solução. Deixe sempre os seus repositórios públicos para que eles sejam acessíveis pela equipe interna da FIAP, mas cuidado com seus links para não vazarem e serem plagiados.
