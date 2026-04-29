@@ -31,6 +31,11 @@ O projeto AI4Success foca na detecção e classificação de objetos utilizando 
 O trabalho documenta todo o ciclo de vida do modelo, desde a organização do dataset até a avaliação crítica de métricas como precisão, recall, mAP e tempo de inferência. A documentação detalhada, decisões de implementação e análises completas estão centralizadas no notebook principal do projeto.
 
 
+## 🔗 Links Rápidos
+- **Notebook Completo (Jupyter/Colab):** [Acessar Notebook](https://colab.research.google.com/drive/1l2nWosIRdPEFrT6DG7Lvy5I2uWeRKGAg)
+- **Vídeo Demonstrativo:** [Assistir no YouTube](https://youtu.be/I3DET0vRD8Y)
+
+
 ## 📁 Estrutura de pastas
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
