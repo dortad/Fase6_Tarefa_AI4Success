@@ -1,5 +1,7 @@
 # Fase6_Tarefa_AI4Success
 
+![FIAP logo](assets/logo.svg)
+
 ## Projeto
 
 Entrega da Fase 6 — AI4Success: detecção e classificação de objetos. O trabalho aborda duas frentes principais:
