@@ -1,0 +1,5 @@
+Dados_fase6/
+Resultados_YOLO/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
