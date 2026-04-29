@@ -107,3 +107,14 @@ Consulte o arquivo `LICENSE` neste repositório para detalhes sobre a licença a
 ---
 
 Se desejar que eu ajuste o inglês, adicione badges, ou gere um `README_COLAB.md` com instruções rápidas para abrir direto no Colab, diga qual opção prefere.
+
+## Entregáveis do enunciado 1
+
+Insira a sua solução em um novo repositório do GitHub com o nome do seu grupo (de 1 a 5 pessoas ou solo) e nos envie o link do GitHub via portal da FIAP. Pode usar um arquivo PDF para nos enviar o link. Pedimos que não realize nenhum novo commit após a data da entrega, para não classificar como entrega após o prazo. Além disso, nesse repositório, faça o upload do link do notebook Jupyter, pois vamos executar seu notebook na correção. O Jupyter precisa ter:
+
+- Células de códigos executadas, com o código Python otimizado e com comentários das linhas;
+- Células de markdown organizando seu relatório e discorrendo textualmente sobre os achados a partir dos dados, e conclusões a respeito dos pontos fortes e limitações do trabalho;
+- O nome do arquivo deve conter seu nome completo, RM e `pbl_fase6.ipynb`, por exemplo: `JoaoSantos_rm76332_pbl_fase6.ipynb`;
+- Vídeo: grave um vídeo de até 5 minutos demonstrando o funcionamento desse entregável, poste no YouTube de forma “não listado”, e coloque o link no seu GitHub, dentro do README.
+
+Desenvolva o seu README com uma documentação introdutória, conduzindo o leitor para o seu Colab/Jupyter, onde lá, estará todo o passo a passo da sua solução e a sua descrição completa. Não precisa repetir a descrição do Jupyter no README do GitHub e sim, fazer uma integração documental da solução. Deixe sempre os seus repositórios públicos para que eles sejam acessíveis pela equipe interna da FIAP, mas cuidado com seus links para não vazarem e serem plagiados.
